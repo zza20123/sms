@@ -6,7 +6,7 @@ define('UID', '135198');
 // กำหนด API Token ของท่าน
 define('TOKEN', '814289b345d75e82192b2abb2b07215c');
 
-$postfields = 'uid=' . UID . '&token=' . TOKEN . '&msisdn=0618354266&message=' . rawurlencode('คิดถึงคุณที่สุด');
+$postfields = 'uid=' . 135198 . '&token=' . 814289b345d75e82192b2abb2b07215c . '&msisdn=0618354266&message=' . rawurlencode('คิดถึงคุณที่สุด');
 
 $curl = curl_init('https://www.tmtopup.com/sendsms_api.php');
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
